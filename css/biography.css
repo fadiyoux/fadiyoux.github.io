@@ -19,8 +19,16 @@ a.navbutton {
 
 }
 
+a.navbutton:hover {
+    color: #7DBBA4
+}
+
 a.sel {
     color: red;
+}
+
+a.sel:hover {
+    color: BB5353;
 }
 
 li a {
