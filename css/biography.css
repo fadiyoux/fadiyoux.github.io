@@ -3,7 +3,6 @@ body {
 }
 
 /* Nav CSS*/
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -15,15 +14,18 @@ li {
     float: left;
 }
 
+a.navbutton {
+    color:green;
+
+}
+
+a.sel {
+    color: red;
+}
+
 li a {
     display: block;
     padding: 8px;
-}
-
-#profile > div > img {
-    width: 256px;
-    height: 256px;
-    padding: 15px;
 }
 
 /* Centers the div tags */
@@ -40,6 +42,20 @@ li a {
     text-align: center;
 }
 
+
+/* Profile Modification */
+
+#profile {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 1%;
+    border: 3px solid #808080;
+    width: 50%;
+}
+
+
 #profile > h1 {
     text-align: center;
     color: white;
@@ -50,6 +66,25 @@ li a {
     font-weight: bold;
     color: white;
 
+}
+
+
+#profile > div > img {
+
+    width: 256px;
+    height: 256px;
+    padding: 15px;
+}
+
+/* Stats Modification */
+
+#stats {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #808080;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    width: 50%;
 }
 
 #stats > h1 {
@@ -64,12 +99,25 @@ li a {
  
 }
 
-/* Table Stats CSS */
+/* Stats Modification */
+
+#contact {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: 3px solid #808080;
+    margin-top: 1%;
+    width: 55%;
+}
+
 #stats > table {
     width: 50%;
     border-collapse: collapse;
+    object-fit: fill;
 }
 #stats > table, th, td {
+    object-fit: fill;
     margin-right: auto;
     margin-left: auto;
     border: 2px solid rgb(0, 0, 0);  
@@ -98,6 +146,6 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 6%;
-  }
+    width: 10%;
+}
   
