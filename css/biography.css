@@ -59,6 +59,7 @@ li a {
 #profile > h1 {
     text-align: center;
     color: white;
+    font-size: 40px;
 }
 
 #profile > p {
@@ -67,7 +68,6 @@ li a {
     color: white;
 
 }
-
 
 #profile > div > img {
 
@@ -90,16 +90,26 @@ li a {
 #stats > h1 {
     text-align: center;
     color: white;
-   
-}
-
-#contact > h1 {
-    text-align: center;  
-    color: white;
- 
+    font-size: 30px;
 }
 
 /* Stats Modification */
+
+#stats > table {
+    width: 50%;
+    border-collapse: collapse;
+    object-fit: fill;
+}
+
+#stats > table, th, td {
+    object-fit: fill;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid rgb(0, 0, 0);  
+    text-align: center;
+}
+
+/* Contact CSS */ 
 
 #contact {
     margin-left: auto;
@@ -111,20 +121,11 @@ li a {
     width: 55%;
 }
 
-#stats > table {
-    width: 50%;
-    border-collapse: collapse;
-    object-fit: fill;
+#contact > h1 {
+    text-align: center;  
+    color: white;
+    font-size: 30px;
 }
-#stats > table, th, td {
-    object-fit: fill;
-    margin-right: auto;
-    margin-left: auto;
-    border: 2px solid rgb(0, 0, 0);  
-    text-align: center;
-}
-
-/* Contact CSS */ 
 
 #contact > input[type=text] {
     color: white;
@@ -148,4 +149,13 @@ input[type=submit] {
     cursor: pointer;
     width: 10%;
 }
-  
+
+/* Simple modifications */
+hr {
+    color: #808080;
+}
+
+#copyright {
+    text-align: center; 
+    color: white; 
+}
