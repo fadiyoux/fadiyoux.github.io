@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(63, 48, 48);
+}
+
+/* Nav CSS*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+#profile > div > img {
+    width: 256px;
+    height: 256px;
+    padding: 15px;
+}
+
+/* Centers the div tags */
+.centered-div {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: fit-content;
+
+}
+
+/* Centers the text tags */
+
+.centered-text {
+    text-align: center;
+}
+
+#profile > h1 {
+    text-align: center;
+    color: white;
+}
+
+#profile > p {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+}
+
+#stats > h1 {
+    text-align: center;
+    color: white;
+   
+}
+
+#contact > h1 {
+    text-align: center;  
+    color: white;
+ 
+}
+
+/* Table Stats CSS */
+#stats > table {
+    width: 50%;
+    border-collapse: collapse;
+}
+#stats > table, th, td {
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid rgb(0, 0, 0);  
+    text-align: center;
+}
+
+/* Contact CSS */ 
+
+#contact > input[type=text] {
+    color: white;
+}
+
+#contact > form > label {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type=submit] {
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 6%;
+  }
+  
