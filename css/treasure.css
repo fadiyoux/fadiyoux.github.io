@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.treasure-map {
+    width: 100%;
+    height: 100%;
+}
+
+.ship {
+    position: fixed;
+    width: 5%;
+    height: 10%;
+    left: 10%;
+    top: 13%;
+}
+
+.grave {
+    position: fixed;
+    width: 5%;
+    height: 7%;
+    left: 15%;
+    top: 33%;
+}
+
+.swords {
+    position: fixed;
+    width: 5%;
+    height: 7%;
+    left: 28%;
+    top: 48%;
+}
+
+.bomb {
+    position: fixed;
+    width: 3%;
+    height: 7%;
+    left: 34%;
+    top: 29%;
+}
+.dragon {
+    position: fixed;
+    width: 8%;
+    height: 8%;
+    left: 43%;
+    top: 23%;
+}
+
+.trees-1 {
+    position: fixed;
+    width: 4%;
+    height: 8%;
+    left: 37%;
+    bottom: 26%;
+}
+
+.trees-2 {
+    position: fixed;
+    width: 4%;
+    height: 8%;
+    right: 24%;
+    top: 23%;
+}
+
+.treasure {
+    position: fixed;
+    width: 4%;
+    height: 8%;
+    right: 28%;
+    bottom: 42%;
+}
