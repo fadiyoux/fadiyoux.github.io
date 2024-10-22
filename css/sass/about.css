@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Londrina+Sketch&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+body {
+  background-color: lightgray;
+  border: solid 20px darkgray;
+  width: 70%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  font-family: Arial;
+  margin: 10px;
+  padding: 20px;
+}
+
+header {
+  background-color: darkcyan;
+  border: inset 5px darkgreen;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+header div p {
+  text-align: center;
+  color: darkorange;
+  font-family: "Roboto Mono", monospace;
+}
+
+.dummytext {
+  background-color: darkkhaki;
+  border: inset 5px darkgreen;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+}
+.dummytext p {
+  color: cornflowerblue;
+  font-family: "Dancing Script", cursive;
+  font-size: large;
+  font-weight: bold;
+}
+
+footer {
+  background-color: darkgrey;
+  border: inset 5px darkgreen;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 15px;
+}
+footer div p {
+  text-align: center;
+  color: lightgreen;
+  font-family: "Playwrite GB S", cursive;
+}/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,66 @@
+@import 'variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Londrina+Sketch&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-color: $body-background-color;
+    border: $body-border;
+    width: 70%;
+    margin: auto;
+    border-radius: $default-radius;
+}
+
+.title { 
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: $title-color;
+    font-family: Arial;
+    margin: 10px;
+    padding: $default-padding;
+}
+
+header {
+    background-color: $header-background-color;
+    border: $default-border;
+    border-radius: $default-radius;
+    padding: $default-padding;
+    margin: 20px;
+    div {
+        p {
+            text-align: center;
+            color: $header-p-color;
+            font-family: "Roboto Mono", monospace;
+        }
+    }
+}
+
+.dummytext {
+    background-color: $dummytext-background-color;
+    border: $default-border;
+    border-radius: $default-radius;
+    margin: 10px;
+    padding: $default-padding;
+    p {
+        color: $dummytext-p-color;
+        font-family: "Dancing Script", cursive;
+        font-size: large;
+        font-weight: bold;
+    }
+}
+
+footer {
+    background-color: $footer-background-color;
+    border: $default-border;
+    border-radius: $default-radius;
+    padding: 15px;
+    margin: 15px;
+    div {
+        p {
+            text-align: center;
+            color: $footer-p-color;
+            font-family: "Playwrite GB S", cursive;
+        }
+    }
+}
