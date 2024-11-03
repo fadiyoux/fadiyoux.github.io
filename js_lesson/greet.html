@@ -4,20 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greet</title>
-  
+    <link rel="stylesheet" href="greet.css">
+    <script src="greet.js"></script>
 </head>
 <body>
-    <h1 id="greet" onclick="alert('something')">Welcome</h1>
-    <input type="text" id="fname" placeholder="Enter Full Name" />
-    <input type="button" value="greet" id="btn" onclick="greeting()">
-    <script>
-        function greeting(){
-            let name = document.getElementById('fname').value
-            
-            console.log(`Hello, ${name}`);
-            document.getElementById("greet").innerHTML = `Hello, ${name}`
-            alert(`Hello, ${name}`);
-        }
-    </script>
+    <div class="center_div">
+        <h1 id="greet">Welcome</h1>
+        <input type="text" id="fname" placeholder="Enter Full Name" />
+        <input type="button" value="greet" id="btn" onclick="greeting()">
+    </div>
 </body>
 </html>
