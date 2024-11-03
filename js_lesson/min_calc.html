@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Mini Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="center_div">
+        Enter number <input type="number" id="num1"> <br>
+        Enter another number <input type="number" id="num2">
+        <button type="button" id="btn">Caclulate</button>
+    </div>
+    <h2>Results</h2>
+    <div class="center_div"><p id="result"></p></div>
+    <script>
+        function caclulate() {
+           const num1 = parseInt(document.getElementById('num1').value);
+           const num2 = parseInt(document.getElementById('num2').value);
+
+           if (!isNaN(num1) && !isNaN(num2)) {
+            const total = num1 + num2;
+            const subtraction = num1 - num2;
+            const multiplication = num1 * num2;
+            let division;
+
+            if (num1 !== 0) {
+                if (num2 !== 0) {
+                    division = (num1 / num2);
+                } else {
+                    division = "Cannot divide by zero";
+                }
+            } else {
+                division = "Cannot divide by zero";
+            }
+
+            console.log(`Total ${total}`);
+            console.log(`Subtraction ${subtraction}`);
+            console.log(`Division ${division}`);
+            console.log(`Multiplication ${multiplication}`);
+
+            document.getElementById('result').innerHTML = `Total  = ${total} <br> Subtraction = ${subtraction}<br> Division = ${division}<br> Multiplication ${multiplication}`;
+           } else {
+            document.getElementById('result').innerHTML = 'The values were not numbers'
+           }
+        }
+
+        const button = document.getElementById('btn');
+        button.addEventListener('click', caclulate);
+    </script>
+</body>
+</html>

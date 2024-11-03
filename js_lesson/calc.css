@@ -1,0 +1,14 @@
+body {
+    background-color: bfbfbf;
+}
+h1, h2 {
+    text-align: center;
+}
+
+.center_div {
+    border: 5px solid green;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}

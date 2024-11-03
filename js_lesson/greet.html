@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+    <h1 id="greet" onclick="alert('something')">Welcome</h1>
+    <input type="text" id="fname" placeholder="Enter Full Name" />
+    <input type="button" value="greet" id="btn" onclick="greeting()">
+    <script>
+        
+        function greeting(){
+            let name = document.getElementById('fname').value
+            let age = 40;
+            console.log("Hello " + name);
+
+            document.getElementById("greet").innerHTML = "Hello " + name
+            //document.write("Hello " + name);
+            alert("Hello " + name);
+        }
+
+        //greeting();
+
+        function display(){
+            console.log(name)
+        }
+        function test(){
+            document.write(name)
+        }
+    </script>
+</body>
+</html>
